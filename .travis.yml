@@ -12,7 +12,7 @@ env:
 before_install:
     - echo yes | sdkmanager "build-tools;27.0.3"
 
-# Run assemble and unit tests
+#  Run assemble and unit tests
 script:
   - ./gradlew clean assembleDebug assembleRelease testDebug
 
