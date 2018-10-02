@@ -22,7 +22,7 @@ import static org.junit.Assert.*;
 public class MynewsTest {
     @Test
     public void dateApaterTest() {
-        assertEquals("2018-05-25 06:42", NewsAdapter.dateAdapter("2018-05-25T06:42:57-04:00"));
+        assertEquals("2018-05-25 06:4", NewsAdapter.dateAdapter("2018-05-25T06:42:57-04:00"));
     }
 
 }
