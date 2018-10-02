@@ -16,5 +16,6 @@ before_install:
 #  Run assemble and unit tests
 script:
   #- chmod +x ./gradlew  
-  - chmod +x./gradlew clean assembleDebug assembleRelease testDebug
+  #- chmod +x./gradlew clean assembleDebug assembleRelease testDebug
+  - chmod +x./gradlew testDebug
 
