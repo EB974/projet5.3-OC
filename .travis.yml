@@ -17,5 +17,5 @@ before_install:
 script:
   #- chmod +x ./gradlew  
   #- chmod +x./gradlew clean assembleDebug assembleRelease testDebug
-  - chmod +x./gradlew testDebug
+  - chmod +x ./gradlew clean
 
